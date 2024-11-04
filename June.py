@@ -6,9 +6,6 @@ import yt_dlp
 from dotenv import load_dotenv
 import urllib.parse, urllib.request, re
 
-# Carga las variables de entorno desde el archivo .env
-load_dotenv()
-
 def run_bot():
     TOKEN = os.getenv('DISCORD_TOKEN')
     intents = discord.Intents.default()
